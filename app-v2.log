@@ -1,0 +1,65 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "app-v2.py", line 156, in <module>
+    run()
+  File "app-v2.py", line 149, in run
+    data=data_process(work_list,token)
+  File "app-v2.py", line 119, in data_process
+    affectRowStr=' '.join(affect_rows)
+TypeError: sequence item 0: expected str instance, int found
+nohup: ignoring input
+{"errcode":0,"errmsg":"ok"}
+{"errcode":0,"errmsg":"ok"}
+Traceback (most recent call last):
+  File "app-v2.py", line 156, in <module>
+    run()
+  File "app-v2.py", line 147, in run
+    work_list = get_work(token)
+  File "app-v2.py", line 45, in get_work
+    return request.json()
+  File "/usr/local/lib/python3.6/site-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib64/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib64/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib64/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+nohup: ignoring input
+Traceback (most recent call last):
+  File "app-v2.py", line 156, in <module>
+    run()
+  File "app-v2.py", line 147, in run
+    work_list = get_work(token)
+  File "app-v2.py", line 45, in get_work
+    return request.json()
+  File "/usr/local/lib/python3.6/site-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib64/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib64/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib64/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+nohup: ignoring input
+nohup: ignoring input
+nohup: ignoring input
+nohup: ignoring input
+nohup: ignoring input
+{"errcode":0,"errmsg":"ok"}
+Traceback (most recent call last):
+  File "./app-v2.py", line 158, in <module>
+    run()
+  File "./app-v2.py", line 150, in run
+    data,workid=data_process(work_list,token)
+TypeError: 'NoneType' object is not iterable
+nohup: ignoring input
+Traceback (most recent call last):
+  File "./app-v2.py", line 157, in <module>
+    run()
+  File "./app-v2.py", line 149, in run
+    data,workid=data_process(work_list,token)
+TypeError: 'NoneType' object is not iterable
+nohup: ignoring input
